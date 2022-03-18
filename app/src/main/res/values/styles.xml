@@ -14,4 +14,16 @@
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
 
+
+    <style name="counterText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/twitter_blue</item>
+        <!--other parameters that you want to change -->
+    </style>
+    <style name="counterOverride" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/red</item>
+        <!--other parameters that you want to change -->
+    </style>
+    <style name="Button.TwitterBlue" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/twitter_blue</item>
+    </style>
 </resources>
